@@ -1,0 +1,14 @@
+{
+  "name": "secure-login-system",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "backend"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/web",
+    "dev:mobile": "npm run dev -w apps/mobile",
+    "dev:backend": "npm run dev -w backend"
+  }
+}
