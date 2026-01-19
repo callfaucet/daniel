@@ -1,0 +1,5 @@
+{
+    "buildCommand": "cd ../.. && npm run build:shared && cd apps/mobile && npm run build",
+    "outputDirectory": "dist",
+    "framework": "vite"
+}

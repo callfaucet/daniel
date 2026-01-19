@@ -20,7 +20,13 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "@secure-login/shared": [
+                "../../packages/shared/src/index.ts"
+            ]
+        }
     },
     "include": [
         "src"
